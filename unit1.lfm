@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 257
+  Height = 240
+  Top = 177
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object ButtonGen: TButton
+    Left = 163
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'ButtonGen'
+    OnClick = ButtonGenClick
+    TabOrder = 0
+  end
+  object Output: TMemo
+    Left = 0
+    Height = 136
+    Top = 80
+    Width = 320
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object Input: TEdit
+    Left = 80
+    Height = 37
+    Top = 0
+    Width = 240
+    NumbersOnly = True
+    TabOrder = 2
+  end
+  object ButtonExit: TButton
+    Left = 239
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'ButtonExit'
+    OnClick = ButtonExitClick
+    TabOrder = 3
+  end
+  object LabelInput: TLabel
+    Left = 0
+    Height = 19
+    Top = 6
+    Width = 68
+    Caption = 'LabelInput'
+    ParentColor = False
+  end
+  object LabelOutputFile: TLabel
+    Left = 0
+    Height = 19
+    Top = 48
+    Width = 104
+    Caption = 'LabelOutputFile'
+    ParentColor = False
+  end
+  object OutputFile: TEdit
+    Left = 80
+    Height = 37
+    Top = 40
+    Width = 240
+    TabOrder = 4
+    Text = 'OutputFile'
+  end
+  object ButtonOutputFile: TButton
+    Left = 76
+    Height = 25
+    Top = 216
+    Width = 86
+    Caption = 'ButtonOutputFile'
+    OnClick = ButtonOutputFileClick
+    TabOrder = 5
+  end
+  object ButtonOpenFile: TButton
+    Left = 0
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'ButtonOpenFile'
+    OnClick = ButtonOpenFileClick
+    TabOrder = 6
+  end
+end
