@@ -1,4 +1,14 @@
+#########
+#Lazaurs#
+#########
 backup/
 lib/
 PG
 *.ico
+
+######
+#Java#
+######
+*.class
+*.jar
+
